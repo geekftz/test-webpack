@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"printMe\": () => (/* binding */ printMe),\n/* harmony export */   \"printMeValue\": () => (/* binding */ printMeValue)\n/* harmony export */ });\nconst printMe = () => {\n  console.log('I get called from print.js! ' + printMeValue);\n};\n\nconst printMeValue = 100;\n\n\n//# sourceURL=webpack://webpack-test/./src/print.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"printMe\": () => (/* binding */ printMe),\n/* harmony export */   \"printMeValue\": () => (/* binding */ printMeValue)\n/* harmony export */ });\nconst printMe = () => {\r\n  console.log('I get called from print.js! ' + printMeValue);\r\n};\r\n\r\nconst printMeValue = 100;\r\n\n\n//# sourceURL=webpack://webpack-test/./src/print.js?");
 
 /***/ })
 

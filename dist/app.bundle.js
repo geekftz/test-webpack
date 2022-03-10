@@ -26,7 +26,7 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _print_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./print.js */ \"./src/print.js\");\n\n\n\n\nfunction component() {\n  var element = document.createElement('div');\n\n  var btn = document.createElement('button');\n\n  // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\n\n  btn.innerHTML = 'Click me and check the console!';\n\n  btn.onclick = _print_js__WEBPACK_IMPORTED_MODULE_1__.printMe;\n\n  element.appendChild(btn);\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n\n//# sourceURL=webpack://webpack-test/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _print_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./print.js */ \"./src/print.js\");\n\r\n\r\n\r\n\r\nfunction component() {\r\n  var element = document.createElement('div');\r\n\r\n  var btn = document.createElement('button');\r\n\r\n  // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的\r\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\r\n\r\n  btn.innerHTML = 'Click me and check the console!';\r\n\r\n  btn.onclick = _print_js__WEBPACK_IMPORTED_MODULE_1__.printMe;\r\n\r\n  element.appendChild(btn);\r\n\r\n  return element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\n\n\n//# sourceURL=webpack://webpack-test/./src/index.js?");
 
 /***/ }),
 
@@ -37,7 +37,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var loda
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"printMe\": () => (/* binding */ printMe),\n/* harmony export */   \"printMeValue\": () => (/* binding */ printMeValue)\n/* harmony export */ });\nconst printMe = () => {\n  console.log('I get called from print.js! ' + printMeValue);\n};\n\nconst printMeValue = 100;\n\n\n//# sourceURL=webpack://webpack-test/./src/print.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"printMe\": () => (/* binding */ printMe),\n/* harmony export */   \"printMeValue\": () => (/* binding */ printMeValue)\n/* harmony export */ });\nconst printMe = () => {\r\n  console.log('I get called from print.js! ' + printMeValue);\r\n};\r\n\r\nconst printMeValue = 100;\r\n\n\n//# sourceURL=webpack://webpack-test/./src/print.js?");
 
 /***/ })
 
