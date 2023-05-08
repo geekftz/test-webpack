@@ -18,11 +18,12 @@
     "url": "https://github.com/hackftz/webpack-test/issues"
   },
   "homepage": "https://github.com/hackftz/webpack-test#readme",
-  "devDependencies": {
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
-  },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "webpack": "3"
   }
 }
